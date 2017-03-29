@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Mar 29 17:05:09 2017
+
+@author: hmuramira
+"""
+import pandas as pd
+import time
+import csv
+import matplotlib.pyplot as plt
+from numpy import random
+import numpy as np
+
+# change filename here
+data = open('LOCALBTC-PKR.csv')
+pData = csv.reader(data)
